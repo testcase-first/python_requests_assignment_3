@@ -1,0 +1,10 @@
+base_url = "https://reqres.in"
+register_endpoint = f'{base_url}/api/register'
+login_endpoint = f'{base_url}/api/login'
+list_users_page_1_endpoint = f'{base_url}/api/users'
+list_users_page_2_endpoint = f'{base_url}/api/users?page=2'
+single_valid_user_endpoint = f'{base_url}/api/users/2'
+single_invalid_user_endpoint = f'{base_url}/api/users/23'
+post_user_endpoint = f'{base_url}/api/users'
+update_user_endpoint = f'{base_url}/api/users/2'
+delayed_response_endpoint = f'{base_url}/api/users?delay=3'
